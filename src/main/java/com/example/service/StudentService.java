@@ -16,4 +16,6 @@ public interface StudentService
 
 
     void deleteStudent (String npm);
+    
+    void updateStudent (StudentModel student);
 }
